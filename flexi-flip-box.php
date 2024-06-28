@@ -10,8 +10,12 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       flexi-flip-box
  *
- * @package           create-block
+ * @package CreateBlock
  */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
 
 /**
  * Registers the block using the metadata loaded from the `block.json` file.
